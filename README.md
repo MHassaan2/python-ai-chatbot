@@ -25,7 +25,7 @@ To set up the project locally and get the AI chatbot running, please follow thes
 
 1.  **Clone the Repository** 📁
     ```bash
-    git clone https://github.com/your-username/python-ai-chatbot.git
+    git clone https://github.com/MHassaan2/python-ai-chatbot.git
     cd python-ai-chatbot
     ```
 
