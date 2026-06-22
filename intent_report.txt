@@ -1,0 +1,21 @@
+Accuracy: 0.9923
+
+                   precision    recall  f1-score   support
+
+academic_pressure       1.00      1.00      1.00        70
+            anger       1.00      1.00      1.00        76
+          anxiety       1.00      1.00      1.00        81
+        gratitude       1.00      1.00      1.00        77
+         greeting       1.00      0.97      0.99        71
+       loneliness       1.00      1.00      1.00        79
+       motivation       0.98      1.00      0.99        88
+         positive       0.96      0.98      0.97        90
+     relationship       1.00      1.00      1.00        70
+          sadness       1.00      1.00      1.00        75
+      self_esteem       0.98      0.95      0.96        86
+            sleep       1.00      1.00      1.00        92
+           stress       1.00      1.00      1.00        85
+
+         accuracy                           0.99      1040
+        macro avg       0.99      0.99      0.99      1040
+     weighted avg       0.99      0.99      0.99      1040

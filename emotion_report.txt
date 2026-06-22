@@ -1,0 +1,30 @@
+Accuracy: 0.3269
+
+              precision    recall  f1-score   support
+
+       angry       0.20      0.05      0.07        22
+     anxious       0.27      0.17      0.21        59
+    confused       0.29      0.10      0.14        42
+     content       0.33      0.60      0.43        78
+   depressed       0.00      0.00      0.00        16
+  determined       0.36      0.09      0.14        45
+        down       0.32      0.39      0.35        36
+  frustrated       0.41      0.29      0.34        49
+    grateful       1.00      0.04      0.08        23
+       happy       0.31      0.36      0.34        74
+     hopeful       0.37      0.23      0.28        48
+    hopeless       0.31      0.18      0.23        28
+    insecure       0.00      0.00      0.00        26
+      lonely       0.00      0.00      0.00        26
+     nervous       0.00      0.00      0.00        22
+     neutral       0.39      0.24      0.30        46
+ overwhelmed       0.41      0.52      0.46        69
+         sad       0.26      0.64      0.37        80
+    stressed       0.37      0.53      0.44        75
+       tired       0.31      0.36      0.33        67
+       upset       0.34      0.51      0.41        57
+     worried       0.30      0.21      0.25        52
+
+    accuracy                           0.33      1040
+   macro avg       0.30      0.25      0.23      1040
+weighted avg       0.32      0.33      0.29      1040
