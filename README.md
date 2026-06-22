@@ -70,7 +70,45 @@ To set up the project locally and get the AI chatbot running, please follow thes
     *   `python train.py` (To train the intent and emotion classification models)
     *   `python evaluation.py` (To evaluate the trained models and generate reports)
     
-    *Note: Pre-trained models (`.pkl` files) might already be provided in the repository, making this step optional if you only intend to use the existing models.*
+6. **File Structure** 📦
+   Your file structure should be:
+   
+```   
+ AI_Mental_Health_Chatbot/
+│
+├── data/
+│   ├── dataset.csv
+|   ├── cleaned_dataset.csv
+|   ├── eda_processed_dataset.csv
+│   └── final_processed_dataset.csv
+│
+├── models/
+│   ├── tfidf_vectorizer.pkl
+|   ├── tfidf_features.pkl
+│   ├── intent_model.pkl
+│   ├── intent_encoder.pkl
+│   ├── emotion_model.pkl
+│   └── emotion_encoder.pkl
+│
+├── src/
+│   ├── processing.py
+│   ├── data understanding & EDA.py
+│   ├── train.py
+│   ├── chatbot.py
+│   └── evaluation.py
+│
+├── app/
+│   └── gradio_app.py
+│
+├── results/
+│  
+│   
+└── metrics/
+    ├── intent_report.txt
+    └── emotion_report.txt
+```
+
+   *Note: Pre-trained model files (.pkl) are included in the repository. If you only want to run the chatbot, simply ensure the required model files are available and run app/gradio_app.py. Training and preprocessing scripts are only needed if you want to retrain the models or reproduce the complete workflow.*
 
 ## Usage 💬💻
 
